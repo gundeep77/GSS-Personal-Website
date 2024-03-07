@@ -1,0 +1,16 @@
+{
+  "short_name": "GSS",
+  "name": "Gundeep Singh Saluja - Personal Website",
+  "description": "The purpose of this website is to showcase myself.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#191924",
+  "theme_color": "#191924",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ]
+}
