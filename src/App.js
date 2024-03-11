@@ -1,8 +1,8 @@
 import styled, { ThemeProvider } from "styled-components";
-import { useState} from "react";
+import { useState } from "react";
 import Navbar from "./components/Navbar";
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 import ProfileSection from "./components/ProfileSection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -12,31 +12,48 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import Contact from "./components/Contact";
 import { darkTheme, lightTheme } from "./themes/themeModes.js";
-import useLocalStorage from "use-local-storage";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
   overflow-x: hidden;
-`
+`;
 
 const Wrapper = styled.div`
-  background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+  background: linear-gradient(
+      38.73deg,
+      rgba(204, 0, 187, 0.15) 0%,
+      rgba(201, 32, 184, 0) 50%
+    ),
+    linear-gradient(
+      141.27deg,
+      rgba(0, 70, 209, 0) 50%,
+      rgba(0, 70, 209, 0.15) 100%
+    );
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
-`
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+`;
 function App() {
-  const systemPreference = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const [isDarkMode, setIsDarkMode] = useLocalStorage("theme", systemPreference);
+  // const systemPreference = window.matchMedia(
+  //   "(prefers-color-scheme: dark)"
+  // ).matches;
+  const [isDarkMode, setIsDarkMode] = useState(
+    !localStorage.getItem("theme")
+      ? true
+      : JSON.parse(localStorage.getItem("theme"))
+  );
   const theme = isDarkMode === true ? darkTheme : lightTheme;
   const toggleTheme = () => {
-    setIsDarkMode((prevMode) => !prevMode);
-  }
+    setIsDarkMode((prevMode) => {
+      localStorage.setItem("theme", !prevMode);
+      return !prevMode;
+    });
+  };
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <ThemeProvider theme={theme}>
-      <Router >
-        <Navbar isDarkMode = {isDarkMode} toggleTheme = {toggleTheme}/>
+      <Router>
+        <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <Body>
           <ProfileSection />
           <Wrapper>
@@ -46,12 +63,12 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
-            <Contact isDarkMode = {isDarkMode}/>
+            <Contact isDarkMode={isDarkMode} />
           </Wrapper>
           <Footer />
-          {openModal.state &&
+          {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          }
+          )}
         </Body>
       </Router>
     </ThemeProvider>
