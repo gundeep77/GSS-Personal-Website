@@ -26,7 +26,7 @@ const ProfileSection = () => {
         <ProfileInnerContainer>
           <ProfileLeftContainer id="Left">
             <Title>
-              Hi, I am <br /> {Bio.name} <span class="wave">👋</span>
+              Hi, I am <br /> {Bio.name} <span className="wave">👋</span>
             </Title>
             <TextLoop>
               I'm a
