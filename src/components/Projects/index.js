@@ -12,7 +12,7 @@ import {
   Wrapper,
 } from "./ProjectsStyles";
 
-const Projects = ({ openModal, setOpenModal }) => {
+const Projects = ({ setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
   return (
     <Container id="projects">
@@ -66,7 +66,6 @@ const Projects = ({ openModal, setOpenModal }) => {
               <ProjectCard
                 key={index}
                 project={project}
-                openModal={openModal}
                 setOpenModal={setOpenModal}
               />
             ))}
@@ -76,7 +75,6 @@ const Projects = ({ openModal, setOpenModal }) => {
               <ProjectCard
                 key={index}
                 project={project}
-                openModal={openModal}
                 setOpenModal={setOpenModal}
               />
             ))}

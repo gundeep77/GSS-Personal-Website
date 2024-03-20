@@ -178,7 +178,7 @@ export const skills = [
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "images/vscode.png",
       },
       {
         name: "PyCharm",
@@ -380,6 +380,7 @@ export const projects = [
   {
     id: 0,
     title: "PetOpia",
+    date: "Feb 2023 - Mar 2023",
     description:
       "Developed a web application aimed at enabling pet owners to meticulously track their pet's health details, including medication schedules, vaccination records, and vet appointments, ensuring a holistic approach to pet care. Designed a community section for pet owners that can be used to share tips and suggestions for taking care of pets in a better way.",
     image: "images/petopia.png",
@@ -398,6 +399,7 @@ export const projects = [
   {
     id: 1,
     title: "Ticket Stop",
+    date: "Sep 2022",
     description:
       "Built a NextJS-based web application that allows its users to search, browse around, and book tickets for their favorite events, attractions, and venues by consuming the Ticketmaster's Discovery API.",
     image: "images/ticketstop.png",
@@ -409,6 +411,7 @@ export const projects = [
   {
     id: 2,
     title: "Places Around",
+    date: "Nov 2022",
     description:
       "Developed a React-based web app featuring an Apollo GraphQL server that lets users browse places around them by consuming the FourSquare Places API to fetch real-time place details. Users can like the posts and view the liked posts in a separate section and also have the ability to upload their own posts.",
     image: "images/placesaround.png",
@@ -419,6 +422,7 @@ export const projects = [
   {
     id: 3,
     title: "Kid's Guardian",
+    date: "Feb 2022",
     description:
       "Built a standalone application that lets parents monitor their child’s safety by providing live feed through the laptop’s webcam. The recorded footage is encrypted using a byte array to prevent unauthorized direct access to the video without logging in.",
     image: "images/kidmonitor.png",
@@ -429,6 +433,7 @@ export const projects = [
   {
     id: 4,
     title: "COVID-19 Updater",
+    date: "Mar 2019",
     description:
       "Wrote a Python script that notifies you about the real-time status of COVID-19 in a particular state with a click of a button fetching right from the National Government website.",
     image: "images/covid.jpg",
@@ -439,6 +444,7 @@ export const projects = [
   {
     id: 5,
     title: "Snakes Game Remastered",
+    date: "Mar 2019",
     description:
       "Built the famous Snakes game from scratch with a next level of difficulty in which the speed of the snake constantly gets higher as the snake's length grows as a result of eating the food.",
     image: "images/snakes.png",

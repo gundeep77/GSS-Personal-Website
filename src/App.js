@@ -12,6 +12,7 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import Contact from "./components/Contact";
 import { darkTheme, lightTheme } from "./themes/themeModes.js";
+import ReactStarfield from "react-starfield";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -55,12 +56,13 @@ function App() {
       <Router>
         <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <Body>
+        <ReactStarfield/>
           <ProfileSection />
           <Wrapper>
             <Skills />
             <Experience />
           </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Projects setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
             <Contact isDarkMode={isDarkMode} />
