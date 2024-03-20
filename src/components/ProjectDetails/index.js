@@ -4,6 +4,7 @@ import React from "react";
 import {
   Container,
   Title,
+  Date,
   Wrapper,
   Image,
   Tags,
@@ -33,6 +34,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           />
           <Image src={project?.image} />
           <Title>{project?.title}</Title>
+          <Date>{project?.date}</Date>
           <Tags>
             {project?.tags.map((tag, index) => (
               <Tag key={index}>{tag}</Tag>
