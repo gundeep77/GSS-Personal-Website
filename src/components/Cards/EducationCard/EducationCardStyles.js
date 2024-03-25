@@ -15,7 +15,7 @@ export const Span = styled.span`
   overflow: hidden;
   display: -webkit-box;
   max-width: 100%;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 `;
