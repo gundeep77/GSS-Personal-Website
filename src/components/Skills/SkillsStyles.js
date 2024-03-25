@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { useSpring, animated } from "react-spring";
+import { useState } from "react";
 
 export const Container = styled.div`
   display: flex;
@@ -52,6 +54,7 @@ export const SkillsContainer = styled.div`
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
+  transform: hovered ? "scale(1.1)" : "scale(1)",
 `;
 
 export const Skill = styled.div`
@@ -118,3 +121,21 @@ export const SkillImageWithFilter = styled.img`
   height: 24px;
   filter: ${({ theme }) => theme.filterImage};
 `;
+
+export const AnimatedDiv = ({ children }) => {
+  const [hovered, setHovered] = useState(false);
+
+  const springProps = useSpring({
+    transform: hovered ? "scale(1.07)" : "scale(1)",
+  });
+
+  return (
+    <animated.div
+      style={springProps}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      {children}
+    </animated.div>
+  );
+};

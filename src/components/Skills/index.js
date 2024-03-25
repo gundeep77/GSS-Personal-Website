@@ -11,6 +11,7 @@ import {
   SkillsContainer,
   Title,
   Wrapper,
+  AnimatedDiv,
 } from "./SkillsStyles";
 
 const Skills = () => {
@@ -21,21 +22,23 @@ const Skills = () => {
         <Title>Skills</Title>
         <SkillsContainer>
           {skills.map((skill, index) => (
-            <Skill key={index}>
-              <SkillTitle>{skill.title}</SkillTitle>
-              <SkillList>
-                {skill.skills.map((item, index) => (
-                  <SkillItem key={index}>
-                    {imagesForFilter.includes(item.name) ? (
-                      <SkillImageWithFilter src={item.image} />
-                    ) : (
-                      <SkillImage src={item.image} />
-                    )}
-                    {item.name}
-                  </SkillItem>
-                ))}
-              </SkillList>
-            </Skill>
+            <AnimatedDiv>
+              <Skill key={index}>
+                <SkillTitle>{skill.title}</SkillTitle>
+                <SkillList>
+                  {skill.skills.map((item, index) => (
+                    <SkillItem key={index}>
+                      {imagesForFilter.includes(item.name) ? (
+                        <SkillImageWithFilter src={item.image} />
+                      ) : (
+                        <SkillImage src={item.image} />
+                      )}
+                      {item.name}
+                    </SkillItem>
+                  ))}
+                </SkillList>
+              </Skill>
+            </AnimatedDiv>
           ))}
         </SkillsContainer>
       </Wrapper>
