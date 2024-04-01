@@ -409,6 +409,18 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Personal Website",
+    date: "Dec 2022 - Jan 2023",
+    description:
+      "Developed this website that you are currently visiting using React, Material UI, and Email JS. Deployed the application on Hostinger and established a CI/CD pipline using GitHub Actions for automated deployment.",
+    image: "images/personal.png",
+    category: "javascript",
+    tags: ["React", "Material UI", "Email JS", "GitHub Actions"],
+    github: "https://github.com/gundeep77/GSS-Personal-Website",
+    webapp: "https://gssaluja.com",
+  },
+  {
+    id: 3,
     title: "Places Around",
     date: "Nov 2022",
     description:
@@ -419,7 +431,7 @@ export const projects = [
     github: "https://github.com/gundeep77/Places-Around",
   },
   {
-    id: 3,
+    id: 4,
     title: "Tasklear - Manage your tasks!",
     date: "Jan 2021",
     description:
@@ -431,7 +443,7 @@ export const projects = [
     webapp: "https://tasklear.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Kid's Guardian",
     date: "Feb 2022",
     description:
@@ -442,7 +454,7 @@ export const projects = [
     github: "https://github.com/gundeep77/Kid-Guardian",
   },
   {
-    id: 5,
+    id: 6,
     title: "COVID-19 Updater",
     date: "Mar 2019",
     description:
@@ -453,7 +465,7 @@ export const projects = [
     github: "https://github.com/gundeep77/COVID-19-Updater",
   },
   {
-    id: 6,
+    id: 7,
     title: "Snakes Game Remastered",
     date: "Mar 2019",
     description:

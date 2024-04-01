@@ -46,7 +46,9 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
               View Code
             </Button>
             {/* <Button dull href={project?.webapp} target='new'>View Live</Button> */}
-            {project.title === "Ticket Stop" || project.title === "Tasklear - Manage your tasks!" ? (
+            {project.title === "Ticket Stop" ||
+            project.title === "Tasklear - Manage your tasks!" ||
+            project.title === "Personal Website" ? (
               <Button dull href={project?.webapp} target="new">
                 View Live
               </Button>
