@@ -412,7 +412,7 @@ export const projects = [
     title: "Personal Website",
     date: "Dec 2022 - Jan 2023",
     description:
-      "Developed this website that you are currently visiting using React, Material UI, and Email JS. Deployed the application on Hostinger and established a CI/CD pipline using GitHub Actions for automated deployment.",
+      "Developed this website that you are currently visiting using React, Material UI, and Email JS. Deployed the application on Hostinger and established a CI/CD pipeline using GitHub Actions for automated deployment.",
     image: "images/personal.png",
     category: "javascript",
     tags: ["React", "Material UI", "Email JS", "GitHub Actions"],
