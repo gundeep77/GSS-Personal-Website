@@ -435,7 +435,7 @@ export const projects = [
     title: "Tasklear - Manage your tasks!",
     date: "Jan 2021",
     description:
-      "Created a task lister application using React that doesn't use any database but utilizes the browser's local storage to store the tasks. Users can also categorize the tasks and filter them to easily look up.",
+      "Developed a task lister application using React that utilizes the browser's local storage API to store the tasks. Users can also categorize the tasks, filter them, and sort them for easy look up.",
     image: "images/tasklear.png",
     category: "javascript",
     tags: ["JavaScript", "React"],
