@@ -432,6 +432,17 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Kid's Guardian",
+    date: "Feb 2022",
+    description:
+      "Built a standalone application that lets parents monitor their child’s safety by providing live feed through the laptop’s webcam. The recorded footage is encrypted using a byte array to prevent unauthorized direct access to the video without logging in.",
+    image: "images/kidmonitor.png",
+    category: "python",
+    tags: ["Python", "SQLite3 DB", "Tkinter", "OpenCV"],
+    github: "https://github.com/gundeep77/Kid-Guardian",
+  },
+  {
+    id: 5,
     title: "Tasklear - Manage your tasks!",
     date: "Jan 2021",
     description:
@@ -441,17 +452,6 @@ export const projects = [
     tags: ["JavaScript", "React"],
     github: "https://github.com/gundeep77/Tasklear",
     webapp: "https://tasklear.netlify.app",
-  },
-  {
-    id: 5,
-    title: "Kid's Guardian",
-    date: "Feb 2022",
-    description:
-      "Built a standalone application that lets parents monitor their child’s safety by providing live feed through the laptop’s webcam. The recorded footage is encrypted using a byte array to prevent unauthorized direct access to the video without logging in.",
-    image: "images/kidmonitor.png",
-    category: "python",
-    tags: ["Python", "SQLite3 DB", "Tkinter", "OpenCV"],
-    github: "https://github.com/gundeep77/Kid-Guardian",
   },
   {
     id: 6,
