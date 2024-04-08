@@ -145,6 +145,14 @@ export const skills = [
         name: "GitHub",
         image: "images/github.png",
       },
+      {
+        name: "Kubernetes",
+        image: "images/kubernetes.svg",
+      },
+      {
+        name: "GitHub Actions",
+        image: "images/github-actions.png",
+      },
     ],
   },
   {
