@@ -223,35 +223,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Wipro",
     date: "Jan 2023 - Present",
-    desc: (
-      <ul>
-        <li key={0}>
-          Orchestrated the creation of an AI-driven healthcare platform using
-          Node.js (Express.js for the backend and React.js for the frontend),
-          catering to a user base exceeding 500,000 individuals.
-        </li>
-        <li key={1}>
-          Managed a MongoDB database hosting over 10 million patient records and
-          optimized system performance by 35% through the strategic use of Redis
-          for caching.
-        </li>
-        <li key={2}>
-          Engineered RESTful APIs to facilitate seamless data exchange,
-          successfully managing an average of 200,000 daily requests between
-          front-end and back-end services.
-        </li>
-        <li key={3}>
-          Implemented a containerized solution with Docker and Kubernetes,
-          guaranteeing scalability and high availability of the healthcare
-          application.
-        </li>
-        <li key={4}>
-          Leveraged AWS services (EC2, RDS, S3) for deployment, data management,
-          and storage, maintaining an impressive uptime of 99.95% and ensuring
-          efficient platform operation.
-        </li>
-      </ul>
-    ),
+    desc: "Led the development of a robust healthcare platform, ensuring strict adherence to HIPAA regulations and data security measures. Orchestrated the integration of Node.js technologies for seamless front-end and back-end communication, while leveraging containerization and AWS services for scalability and reliability.",
     skills: [
       "Node.js",
       "Express.js",
@@ -268,26 +240,7 @@ export const experiences = [
     role: "Graduate Teaching Assistant",
     company: "Stevens Institute of Technology",
     date: "Jan 2022 - Dec 2022",
-    desc: (
-      <ul>
-        <li key={0}>
-          Managed over 100 students by hosting additional office hours and
-          doubt-clearing sessions on Python and Mathematics of Machine Learning
-          algorithms improving student engagement scores by 15% as compared to
-          previous semester
-        </li>
-        <li key={1}>
-          Hosted review sessions and conducted coding tutorials aligned with the
-          assignments and course material prior to exams increasing the grades
-          by 10% when compared to previous exam averages
-        </li>
-        <li key={2}>
-          Amplified productivity by assisting the professor in grading weekly
-          assignments, designing course surveys for student feedback, and
-          tutoring the students as professor’s substitute
-        </li>
-      </ul>
-    ),
+    desc: "Facilitated student learning in Python and Machine Learning mathematics through additional office hours and tailored doubt-clearing sessions, enhancing engagement and comprehension. Conducted exam-aligned coding tutorials, resulting in improved grades, while supporting the professor in grading, feedback collection, and tutoring responsibilities.",
     skills: ["Python", "Machine Learning", "Data Analysis"],
   },
   {
@@ -296,41 +249,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Genpact",
     date: "Dec 2019 - Jul 2021",
-    desc: (
-      <ul>
-        <li key={0}>
-          Developed a high-impact course management platform using advanced
-          React techniques, integrating Node.js, Express.js, Docker, AWS Cloud
-          Services, and Restful APIs for a comprehensive full-stack solution.
-        </li>
-        <li key={1}>
-          Led requirements analysis, integrating event calendars, donation
-          forms, real-time updates, and email notifications, resulting in a 20%
-          increase in user engagement, showcasing enhanced platform usability.
-        </li>
-        <li key={2}>
-          Integrated Node.js and Express.js with the backend team, optimizing
-          architecture, and leveraging Docker and AWS Cloud Services for
-          scalable, high-performance infrastructure.
-        </li>
-        <li key={3}>
-          Implemented Restful APIs to facilitate smooth communication between
-          frontend and backend components, ensuring efficient data transactions
-          and a cohesive user experience.
-        </li>
-        <li key={4}>
-          Orchestrated knowledge-sharing sessions, focusing on Express
-          middleware best practices, enhancing the team's proficiency in
-          fortifying security measures and mitigating vulnerabilities.
-        </li>
-        <li key={5}>
-          Translated complex business requirements into scalable solutions,
-          showcasing a commitment to delivering exceptional results and staying
-          abreast of the latest technologies and best practices in software
-          engineering.
-        </li>
-      </ul>
-    ),
+    desc: "Contributed to the development of a comprehensive course management platform, integrating advanced React techniques with Node.js, Express.js, Docker, and AWS Cloud Services. Implemented Restful APIs for seamless frontend-backend communication and optimized architecture for scalability. Conducted knowledge-sharing sessions to enhance team proficiency in security measures and software engineering best practices.",
     skills: [
       "Node.js",
       "Express.js",
