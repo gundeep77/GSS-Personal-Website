@@ -222,7 +222,7 @@ export const experiences = [
     img: "images/wipro.jpg",
     role: "Software Engineer",
     company: "Wipro",
-    date: "Jun 2023 - Present",
+    date: "Aug 2023 - Present",
     desc: "Led the development of a robust healthcare platform, ensuring strict adherence to HIPAA regulations and data security measures. Orchestrated the integration of Node.js technologies for seamless front-end and back-end communication, while leveraging containerization and AWS services for scalability and reliability.",
     skills: [
       "Node.js",
