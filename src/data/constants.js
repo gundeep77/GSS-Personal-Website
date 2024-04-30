@@ -222,7 +222,7 @@ export const experiences = [
     img: "images/wipro.jpg",
     role: "Software Engineer",
     company: "Wipro",
-    date: "Sep 2023 - Present",
+    date: "Aug 2023 - Present",
     desc: "Led the development of a robust healthcare platform, ensuring strict adherence to HIPAA regulations and data security measures. Orchestrated the integration of Node.js technologies for seamless front-end and back-end communication, while leveraging containerization and AWS services for scalability and reliability.",
     skills: [
       "Node.js",
@@ -248,7 +248,7 @@ export const experiences = [
     img: "images/genpact.png",
     role: "Software Engineer",
     company: "Genpact",
-    date: "Jun 2020 - Jul 2021",
+    date: "Apr 2020 - Jul 2021",
     desc: "Contributed to the development of a comprehensive course management platform, integrating advanced React techniques with Node.js, Express.js, Docker, and AWS Cloud Services. Implemented Restful APIs for seamless frontend-backend communication and optimized architecture for scalability. Conducted knowledge-sharing sessions to enhance team proficiency in security measures and software engineering best practices.",
     skills: [
       "Node.js",
