@@ -348,17 +348,6 @@ export const projects = [
     webapp: "https://tasklear.netlify.app",
   },
   {
-    id: 3,
-    title: "Places Around",
-    date: "Nov 2022",
-    description:
-      "Developed a React-based web app featuring an Apollo GraphQL server that lets users browse places around them by consuming the FourSquare Places API to fetch real-time place details. Users can like the posts and view the liked posts in a separate section and also have the ability to upload their own posts.",
-    image: "images/placesaround.png",
-    category: "javascript",
-    tags: ["JavaScript", "React", "GraphQL", "Material UI"],
-    github: "https://github.com/gundeep77/Places-Around",
-  },
-  {
     id: 4,
     title: "Kid's Guardian",
     date: "Feb 2022",
@@ -370,16 +359,15 @@ export const projects = [
     github: "https://github.com/gundeep77/Kid-Guardian",
   },
   {
-    id: 5,
-    title: "Personal Website",
-    date: "Dec 2022 - Jan 2023",
+    id: 3,
+    title: "Places Around",
+    date: "Nov 2022",
     description:
-      "Developed this website that you are currently visiting using React, Material UI, and Email JS. Deployed the application on Hostinger and established a CI/CD pipeline using GitHub Actions for automated deployment.",
-    image: "images/personal.png",
+      "Developed a React-based web app featuring an Apollo GraphQL server that lets users browse places around them by consuming the FourSquare Places API to fetch real-time place details. Users can like the posts and view the liked posts in a separate section and also have the ability to upload their own posts.",
+    image: "images/placesaround.png",
     category: "javascript",
-    tags: ["React", "Material UI", "Email JS", "GitHub Actions"],
-    github: "https://github.com/gundeep77/GSS-Personal-Website",
-    webapp: "https://gssaluja.com",
+    tags: ["JavaScript", "React", "GraphQL", "Material UI"],
+    github: "https://github.com/gundeep77/Places-Around",
   },
   {
     id: 6,
@@ -393,7 +381,18 @@ export const projects = [
     github: "https://github.com/gundeep77/Ticket-Stop",
     webapp: "https://ticketstop.netlify.app",
   },
-
+  {
+    id: 5,
+    title: "Personal Website",
+    date: "Dec 2022 - Jan 2023",
+    description:
+      "Developed this website that you are currently visiting using React, Material UI, and Email JS. Deployed the application on Hostinger and established a CI/CD pipeline using GitHub Actions for automated deployment.",
+    image: "images/personal.png",
+    category: "javascript",
+    tags: ["React", "Material UI", "Email JS", "GitHub Actions"],
+    github: "https://github.com/gundeep77/GSS-Personal-Website",
+    webapp: "https://gssaluja.com",
+  },
   {
     id: 7,
     title: "PetOpia",
