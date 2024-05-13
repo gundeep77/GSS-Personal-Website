@@ -219,32 +219,6 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "images/wipro.jpg",
-    role: "Software Engineer",
-    company: "Wipro",
-    date: "Aug 2023 - Present",
-    desc: "Led the development of a robust healthcare platform, ensuring strict adherence to HIPAA regulations and data security measures. Orchestrated the integration of Node.js technologies for seamless front-end and back-end communication, while leveraging containerization and AWS services for scalability and reliability.",
-    skills: [
-      "Node.js",
-      "Express.js",
-      "React.js",
-      "MongoDB",
-      "AWS",
-      "Redis",
-      "Docker",
-    ],
-  },
-  {
-    id: 1,
-    img: "images/SIT.jpeg",
-    role: "Graduate Teaching Assistant",
-    company: "Stevens Institute of Technology",
-    date: "Jan 2022 - Dec 2022",
-    desc: "Facilitated student learning in Python and Machine Learning mathematics through additional office hours and tailored doubt-clearing sessions, enhancing engagement and comprehension. Conducted exam-aligned coding tutorials, resulting in improved grades, while supporting the professor in grading, feedback collection, and tutoring responsibilities.",
-    skills: ["Python", "Machine Learning", "Data Analysis"],
-  },
-  {
-    id: 2,
     img: "images/genpact.png",
     role: "Software Engineer",
     company: "Genpact",
@@ -260,11 +234,62 @@ export const experiences = [
       "RESTful API",
     ],
   },
-];
+  {
+    id: 1,
+    img: "images/SIT.jpeg",
+    role: "Graduate Teaching Assistant",
+    company: "Stevens Institute of Technology",
+    date: "Jan 2022 - Dec 2022",
+    desc: "Facilitated student learning in Python and Machine Learning mathematics through additional office hours and tailored doubt-clearing sessions, enhancing engagement and comprehension. Conducted exam-aligned coding tutorials, resulting in improved grades, while supporting the professor in grading, feedback collection, and tutoring responsibilities.",
+    skills: ["Python", "Machine Learning", "Data Analysis"],
+  },
+  {
+    id: 2,
+    img: "images/wipro.jpg",
+    role: "Software Engineer",
+    company: "Wipro",
+    date: "Aug 2023 - Apr 2024",
+    desc: "Led the development of a robust healthcare platform, ensuring strict adherence to HIPAA regulations and data security measures. Orchestrated the integration of Node.js technologies for seamless front-end and back-end communication, while leveraging containerization and AWS services for scalability and reliability.",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "MongoDB",
+      "AWS",
+      "Redis",
+      "Docker",
+    ],
+  },
+  {
+    id: 3,
+    img: "images/scaleai.png",
+    role: "Software Developer",
+    company: "Scale AI",
+    date: "Apr 2024 - Present",
+    desc: "Reviewed prompt structures and refined model inputs for Large Language Models, optimizing code inputs across Python, JavaScript, and Java. Diligently ensured the performance and accuracy of LLMs by meticulously reviewing user prompts and model outputs.",
+    skills: ["Python", "JavaScript", "Data Annotation", "Java", "Code Reviews"],
+  },
+].sort((a, b) => b.id - a.id);
 
 export const educations = [
   {
     id: 0,
+    img: "images/VIT.jpeg",
+    school: "Vellore Institute of Technology",
+    grade: "3.0",
+    degree: "B.Tech - Computer Science and Engineering",
+    desc: (
+      <p>
+        I completed my bachelor's degree with a major in Computer Science and
+        Engineering where I learned a diverse set of skills such as Object
+        Oriented Programming in C++, Data Structures and Algorithms, Database
+        Management Systems, Computer Networks, Web Development, Multivariable
+        Calculus, and Modern Physics.
+      </p>
+    ),
+  },
+  {
+    id: 1,
     img: "images/SIT.jpeg",
     school: "Stevens Institute of Technology",
     date: "Sep 2021 - May 2023",
@@ -284,67 +309,43 @@ export const educations = [
       </p>
     ),
   },
-  {
-    id: 1,
-    img: "images/VIT.jpeg",
-    school: "Vellore Institute of Technology",
-    grade: "3.0",
-    degree: "B.Tech - Computer Science and Engineering",
-    desc: (
-      <p>
-        I completed my bachelor's degree with a major in Computer Science and
-        Engineering where I learned a diverse set of skills such as Object
-        Oriented Programming in C++, Data Structures and Algorithms, Database
-        Management Systems, Computer Networks, Web Development, Multivariable
-        Calculus, and Modern Physics.
-      </p>
-    ),
-  },
-];
+].sort((a, b) => b.id - a.id);
 
 export const projects = [
   {
     id: 0,
-    title: "PetOpia",
-    date: "Feb 2023 - Mar 2023",
+    title: "COVID-19 Updater",
+    date: "Mar 2019",
     description:
-      "Developed a web application aimed at enabling pet owners to meticulously track their pet's health details, including medication schedules, vaccination records, and vet appointments, ensuring a holistic approach to pet care. Designed a community section for pet owners that can be used to share tips and suggestions for taking care of pets in a better way.",
-    image: "images/petopia.png",
-    category: "javascript",
-    tags: [
-      "NodeJS",
-      "React",
-      "MongoDB",
-      "ExpressJS",
-      "AWS",
-      "Firebase",
-      "Nodemailer",
-    ],
-    github: "https://github.com/gundeep77/PetOpia",
+      "Wrote a Python script that notifies you about the real-time status of COVID-19 in a particular state with a click of a button fetching right from the National Government website.",
+    image: "images/covid.jpg",
+    category: "python",
+    tags: ["Python", "Web Scraping", "Web Crawling"],
+    github: "https://github.com/gundeep77/COVID-19-Updater",
   },
   {
     id: 1,
-    title: "Ticket Stop",
-    date: "Sep 2022",
+    title: "Snakes Game Remastered",
+    date: "Mar 2019",
     description:
-      "Built a NextJS-based web application by consuming the Ticketmaster's Discovery API that allows its users to search, browse around, and book tickets for their favorite events, attractions, and venues.",
-    image: "images/ticketstop.png",
-    category: "javascript",
-    tags: ["JavaScript", "NextJS", "Material UI"],
-    github: "https://github.com/gundeep77/Ticket-Stop",
-    webapp: "https://ticketstop.netlify.app",
+      "Built the famous Snakes game from scratch with a next level of difficulty in which the speed of the snake constantly gets higher as the snake's length grows as a result of eating the food.",
+    image: "images/snakes.png",
+    category: "python",
+    tags: ["Python", "Pygame"],
+    github: "https://github.com/gundeep77/Snakes-Game",
   },
+
   {
     id: 2,
-    title: "Personal Website",
-    date: "Dec 2022 - Jan 2023",
+    title: "Tasklear - Manage your tasks!",
+    date: "Jan 2021",
     description:
-      "Developed this website that you are currently visiting using React, Material UI, and Email JS. Deployed the application on Hostinger and established a CI/CD pipeline using GitHub Actions for automated deployment.",
-    image: "images/personal.png",
+      "Developed a task lister application using React that utilizes the browser's local storage API to store the tasks. Users can also categorize the tasks, filter them, and sort them for easy look up.",
+    image: "images/tasklear.png",
     category: "javascript",
-    tags: ["React", "Material UI", "Email JS", "GitHub Actions"],
-    github: "https://github.com/gundeep77/GSS-Personal-Website",
-    webapp: "https://gssaluja.com",
+    tags: ["JavaScript", "React"],
+    github: "https://github.com/gundeep77/Tasklear",
+    webapp: "https://tasklear.netlify.app",
   },
   {
     id: 3,
@@ -370,36 +371,46 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Tasklear - Manage your tasks!",
-    date: "Jan 2021",
+    title: "Personal Website",
+    date: "Dec 2022 - Jan 2023",
     description:
-      "Developed a task lister application using React that utilizes the browser's local storage API to store the tasks. Users can also categorize the tasks, filter them, and sort them for easy look up.",
-    image: "images/tasklear.png",
+      "Developed this website that you are currently visiting using React, Material UI, and Email JS. Deployed the application on Hostinger and established a CI/CD pipeline using GitHub Actions for automated deployment.",
+    image: "images/personal.png",
     category: "javascript",
-    tags: ["JavaScript", "React"],
-    github: "https://github.com/gundeep77/Tasklear",
-    webapp: "https://tasklear.netlify.app",
+    tags: ["React", "Material UI", "Email JS", "GitHub Actions"],
+    github: "https://github.com/gundeep77/GSS-Personal-Website",
+    webapp: "https://gssaluja.com",
   },
   {
     id: 6,
-    title: "COVID-19 Updater",
-    date: "Mar 2019",
+    title: "Ticket Stop",
+    date: "Sep 2022",
     description:
-      "Wrote a Python script that notifies you about the real-time status of COVID-19 in a particular state with a click of a button fetching right from the National Government website.",
-    image: "images/covid.jpg",
-    category: "python",
-    tags: ["Python", "Web Scraping", "Web Crawling"],
-    github: "https://github.com/gundeep77/COVID-19-Updater",
+      "Built a NextJS-based web application by consuming the Ticketmaster's Discovery API that allows its users to search, browse around, and book tickets for their favorite events, attractions, and venues.",
+    image: "images/ticketstop.png",
+    category: "javascript",
+    tags: ["JavaScript", "NextJS", "Material UI"],
+    github: "https://github.com/gundeep77/Ticket-Stop",
+    webapp: "https://ticketstop.netlify.app",
   },
+
   {
     id: 7,
-    title: "Snakes Game Remastered",
-    date: "Mar 2019",
+    title: "PetOpia",
+    date: "Feb 2023 - Mar 2023",
     description:
-      "Built the famous Snakes game from scratch with a next level of difficulty in which the speed of the snake constantly gets higher as the snake's length grows as a result of eating the food.",
-    image: "images/snakes.png",
-    category: "python",
-    tags: ["Python", "Pygame"],
-    github: "https://github.com/gundeep77/Snakes-Game",
+      "Developed a web application aimed at enabling pet owners to meticulously track their pet's health details, including medication schedules, vaccination records, and vet appointments, ensuring a holistic approach to pet care. Designed a community section for pet owners that can be used to share tips and suggestions for taking care of pets in a better way.",
+    image: "images/petopia.png",
+    category: "javascript",
+    tags: [
+      "NodeJS",
+      "React",
+      "MongoDB",
+      "ExpressJS",
+      "AWS",
+      "Firebase",
+      "Nodemailer",
+    ],
+    github: "https://github.com/gundeep77/PetOpia",
   },
-];
+].sort((a, b) => b.id - a.id);
