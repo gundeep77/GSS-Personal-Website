@@ -5,7 +5,7 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import { educations, experiences } from "../../data/constants";
+import { education, experiences } from "../../data/constants";
 import EducationCard from "../Cards/EducationCard";
 import { Container, TimelineSection, Title, Wrapper } from "./EducationStyles";
 
@@ -16,14 +16,14 @@ const Education = () => {
         <Title>Education</Title>
         <TimelineSection>
           <Timeline>
-            {educations.map((education, index) => (
+            {education.map((education, index) => (
               <TimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   {index !== experiences.length && (
                     <TimelineConnector style={{ background: "#854CE6" }} />
                   )}
-                  {index === educations.length - 1 && (
+                  {index === education.length - 1 && (
                     <TimelineDot variant="outlined" color="secondary" />
                   )}
                 </TimelineSeparator>

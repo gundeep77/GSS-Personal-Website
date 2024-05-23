@@ -260,18 +260,9 @@ export const experiences = [
       "Docker",
     ],
   },
-  {
-    id: 3,
-    img: "images/scaleai.png",
-    role: "Software Developer",
-    company: "Scale AI",
-    date: "Apr 2024 - Present",
-    desc: "Reviewed prompt structures and refined model inputs for Large Language Models, optimizing code inputs across Python, JavaScript, and Java. Diligently ensured the performance and accuracy of LLMs by meticulously reviewing user prompts and model outputs.",
-    skills: ["Python", "JavaScript", "Data Annotation", "Java", "Code Reviews"],
-  },
 ].sort((a, b) => b.id - a.id);
 
-export const educations = [
+export const education = [
   {
     id: 0,
     img: "images/VIT.jpeg",
