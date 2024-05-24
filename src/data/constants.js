@@ -126,6 +126,14 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "PostgreSQL",
+        image: "images/postgres.png",
+      },
+      {
+        name: "Oracle",
+        image: "images/oracle.png",
+      },
     ],
   },
   {
