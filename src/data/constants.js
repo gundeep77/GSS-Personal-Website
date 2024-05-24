@@ -84,15 +84,11 @@ export const skills = [
         image: "images/java.png",
       },
       {
-        name: "C#",
-        image: "images/csharp.png",
-      },
-      {
         name: "ExpressJS",
         image: "images/express.png",
       },
       {
-        name: "Graph Ql",
+        name: "GraphQl",
         image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
       },
       {
@@ -103,6 +99,15 @@ export const skills = [
         name: "Flask",
         image: "images/flask.png",
       },
+      {
+        name: "Spring Boot",
+        image: "images/springboot.png",
+      },
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
       {
         name: "MySQL",
         image:
@@ -223,7 +228,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Genpact",
     date: "Apr 2020 - Jul 2021",
-    desc: "Contributed to the development of a comprehensive course management platform, integrating advanced React techniques with Node.js, Express.js, Docker, and AWS Cloud Services. Implemented Restful APIs for seamless frontend-backend communication and optimized architecture for scalability. Conducted knowledge-sharing sessions to enhance team proficiency in security measures and software engineering best practices.",
+    desc: "Developed a course management platform using React, Node.js, Express.js, Docker, AWS Cloud, and Java within a microservices architecture to enhance performance and scalability. I led requirements analysis to integrate features like event calendars and real-time updates, significantly boosting user engagement. I optimized database schema, improved data access algorithms, and developed UI-facing REST APIs with Java and Spring Boot. I also conducted knowledge-sharing sessions on Express middleware best practices, enhancing team security proficiency, and translated complex business requirements into scalable technical solutions.",
     skills: [
       "Node.js",
       "Express.js",
@@ -249,7 +254,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Wipro",
     date: "Aug 2023 - Apr 2024",
-    desc: "Led the development of a robust healthcare platform, ensuring strict adherence to HIPAA regulations and data security measures. Orchestrated the integration of Node.js technologies for seamless front-end and back-end communication, while leveraging containerization and AWS services for scalability and reliability.",
+    desc: "Developed and maintained an AI-driven healthcare platform using Node.js, Java with Spring Boot, and React.js, serving a large user base. I implemented a HIPAA-compliant system for patient data handling with robust encryption and security, managing a substantial MongoDB database with improved performance through Redis caching. I created RESTful APIs with Spring Web MVC, deployed the application with Docker and Kubernetes for efficient orchestration, and leveraged AWS services for deployment and data management, ensuring high uptime and efficient operations. I also utilized the Junit framework for unit testing, facilitating reliable code and continuous integration.",
     skills: [
       "Node.js",
       "Express.js",
