@@ -232,6 +232,20 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "images/semantics.png",
+    role: "Software Developer Intern",
+    company: "Genpact",
+    date: "Apr 2019 - Aug 2019",
+    desc: "Developed RESTful APIs for an NLP-based essay evaluation platform using Flask, enhancing efficiency with caching. Improved performance with lazy loading and pagination, resulting in better page load times and reduced server load. Engineered database models and data validation with Python's SQL-Alchemy ORM to manage essays, student data, and evaluation metrics.",
+    skills: [
+      "Python",
+      "Flask",
+      "SQL",
+      "RESTful API",
+    ],
+  },
+  {
+    id: 1,
     img: "images/genpact.png",
     role: "Software Engineer",
     company: "Genpact",
@@ -248,7 +262,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "images/SIT.jpeg",
     role: "Graduate Teaching Assistant",
     company: "Stevens Institute of Technology",
@@ -257,7 +271,7 @@ export const experiences = [
     skills: ["Python", "Machine Learning", "Data Analysis"],
   },
   {
-    id: 2,
+    id: 3,
     img: "images/wipro.jpg",
     role: "Software Engineer",
     company: "Wipro",
@@ -352,17 +366,6 @@ export const projects = [
     webapp: "https://tasklear.netlify.app",
   },
   {
-    id: 4,
-    title: "Kid's Guardian",
-    date: "Feb 2022",
-    description:
-      "Built a standalone application that lets parents monitor their child’s safety by providing live feed through the laptop’s webcam. The recorded footage is encrypted using a byte array to prevent unauthorized direct access to the video without logging in.",
-    image: "images/kidmonitor.png",
-    category: "python",
-    tags: ["Python", "SQLite3 DB", "Tkinter", "OpenCV"],
-    github: "https://github.com/gundeep77/Kid-Guardian",
-  },
-  {
     id: 3,
     title: "Places Around",
     date: "Nov 2022",
@@ -374,7 +377,7 @@ export const projects = [
     github: "https://github.com/gundeep77/Places-Around",
   },
   {
-    id: 6,
+    id: 4,
     title: "Ticket Stop",
     date: "Sep 2022",
     description:
@@ -396,6 +399,17 @@ export const projects = [
     tags: ["React", "Material UI", "Email JS", "GitHub Actions"],
     github: "https://github.com/gundeep77/GSS-Personal-Website",
     webapp: "https://gssaluja.com",
+  },
+  {
+    id: 6,
+    title: "Kid's Guardian",
+    date: "Feb 2022",
+    description:
+      "Built a standalone application that lets parents monitor their child’s safety by providing live feed through the laptop’s webcam. The recorded footage is encrypted using a byte array to prevent unauthorized direct access to the video without logging in.",
+    image: "images/kidmonitor.png",
+    category: "python",
+    tags: ["Python", "SQLite3 DB", "Tkinter", "OpenCV"],
+    github: "https://github.com/gundeep77/Kid-Guardian",
   },
   {
     id: 7,
