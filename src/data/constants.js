@@ -214,6 +214,11 @@ export const skills = [
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
       {
+        name: "Apache Kafka",
+        image:
+          "images/kafka.png",
+      },
+      {
         name: "Hostinger",
         image: "images/hostinger.png",
       },

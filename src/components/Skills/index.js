@@ -15,7 +15,7 @@ import {
 } from "./SkillsStyles";
 
 const Skills = () => {
-  const imagesForFilter = ["GitHub", "Flask", "NextJS"];
+  const imagesForFilter = ["GitHub", "Flask", "NextJS", "Apache Kafka"];
   return (
     <Container id="skills">
       <Wrapper>
