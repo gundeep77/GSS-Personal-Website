@@ -215,8 +215,7 @@ export const skills = [
       },
       {
         name: "Apache Kafka",
-        image:
-          "images/kafka.png",
+        image: "images/kafka.png",
       },
       {
         name: "Hostinger",
@@ -242,12 +241,7 @@ export const experiences = [
     company: "Genpact",
     date: "Apr 2019 - Aug 2019",
     desc: "Developed RESTful APIs for an NLP-based essay evaluation platform using Flask, enhancing efficiency with caching. Improved performance with lazy loading and pagination, resulting in better page load times and reduced server load. Engineered database models and data validation with Python's SQL-Alchemy ORM to manage essays, student data, and evaluation metrics.",
-    skills: [
-      "Python",
-      "Flask",
-      "SQL",
-      "RESTful API",
-    ],
+    skills: ["Python", "Flask", "SQL", "RESTful API"],
   },
   {
     id: 1,
@@ -281,7 +275,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Wipro",
     date: "Aug 2023 - Apr 2024",
-    desc: "Developed and maintained an AI-driven healthcare platform using Node.js, Java with Spring Boot, and React.js, serving a large user base. I implemented a HIPAA-compliant system for patient data handling with robust encryption and security, managing a substantial MongoDB database with improved performance through Redis caching. I created RESTful APIs with Spring Web MVC, deployed the application with Docker and Kubernetes for efficient orchestration, and leveraged AWS services for deployment and data management, ensuring high uptime and efficient operations. I also utilized the Junit framework for unit testing, facilitating reliable code and continuous integration.",
+    desc: "Developed and maintained RESTful APIs for an NLP-based essay evaluation platform using Flask. I implemented caching mechanisms to enhance API response efficiency and engineered complex database models. Additionally, I created data validation methods using Python’s SQL-Alchemy ORM to effectively manage essays, student data, and evaluation metrics.",
     skills: [
       "Node.js",
       "Express.js",
