@@ -240,7 +240,7 @@ export const experiences = [
     role: "Software Developer Intern",
     company: "Genpact",
     date: "Apr 2019 - Aug 2019",
-    desc: "During my internship at Semantics, I developed and maintained RESTful APIs for an NLP-based essay evaluation platform using Flask. I implemented caching mechanisms to enhance API response efficiency and engineered complex database models. Additionally, I created data validation methods using Python’s SQL-Alchemy ORM to effectively manage essays, student data, and evaluation metrics.",
+    desc: "Developed and maintained RESTful APIs for an NLP-based essay evaluation platform using Flask. I implemented caching mechanisms to enhance API response efficiency and engineered complex database models. Additionally, I created data validation methods using Python’s SQL-Alchemy ORM to effectively manage essays, student data, and evaluation metrics.",
     skills: ["Python", "Flask", "SQL", "RESTful API"],
   },
   {
