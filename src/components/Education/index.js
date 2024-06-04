@@ -16,11 +16,11 @@ const Education = () => {
         <Title>Education</Title>
         <TimelineSection>
           <Timeline>
-            {education.map((education, index) => (
+            {education.map((edu, index) => (
               <TimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {index !== experiences.length && (
+                  {index !== education.length && (
                     <TimelineConnector style={{ background: "#854CE6" }} />
                   )}
                   {index === education.length - 1 && (
@@ -28,7 +28,7 @@ const Education = () => {
                   )}
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <EducationCard education={education} />
+                  <EducationCard education={edu} />
                 </TimelineContent>
               </TimelineItem>
             ))}
