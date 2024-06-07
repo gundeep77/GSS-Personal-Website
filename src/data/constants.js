@@ -10,7 +10,7 @@ export const Bio = {
   ],
   description:
     "I am a master's graduate from Stevens Institute of Technology, New Jersey with a major in Computer Science. I built this website to showcase my technical skills, projects that I have utilized those skills on, and my professional experience to date. I plan to expand this website to provide its viewers with a broader glance into who I am and what I do. Be sure to visit frequently to learn more about me.",
-  resume: "/Gundeep-Singh-Saluja-Resume.pdf",
+  resume: "/Resume.pdf",
   github: "https://github.com/gundeep77",
   linkedin: "https://www.linkedin.com/in/gssaluja",
   twitter: "https://twitter.com/gssaluja77",
