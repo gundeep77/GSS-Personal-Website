@@ -238,9 +238,9 @@ export const experiences = [
     id: 0,
     img: "images/semantics.png",
     role: "Software Developer Intern",
-    company: "Genpact",
+    company: "Semantics",
     date: "Apr 2019 - Aug 2019",
-    desc: "Developed and maintained RESTful APIs for an NLP-based essay evaluation platform using Flask. I implemented caching mechanisms to enhance API response efficiency and engineered complex database models. Additionally, I created data validation methods using Python’s SQL-Alchemy ORM to effectively manage essays, student data, and evaluation metrics.",
+    desc: "Contributed to the development of RESTful APIs for an NLP-based essay evaluation platform, focusing on efficiency improvements through caching mechanisms. I also played a crucial role in designing complex database models and implementing data validation methods for effective essay and student data management.",
     skills: ["Python", "Flask", "SQL", "RESTful API"],
   },
   {
@@ -249,7 +249,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Genpact",
     date: "Apr 2020 - Jul 2021",
-    desc: "Developed a course management platform using React, Node.js, Express.js, Docker, AWS Cloud, and Java within a microservices architecture to enhance performance and scalability. I led requirements analysis to integrate features like event calendars and real-time updates, significantly boosting user engagement. I optimized database schema, improved data access algorithms, and developed UI-facing REST APIs with Java and Spring Boot. I also conducted knowledge-sharing sessions on Express middleware best practices, enhancing team security proficiency, and translated complex business requirements into scalable technical solutions.",
+    desc: "Led the development of a course management platform, integrating various features like event calendars and real-time updates to boost user engagement. I implemented a scalable infrastructure using Node.js, Express.js, Docker, and AWS, while also optimizing database schema and access algorithms for improved performance.",
     skills: [
       "Node.js",
       "Express.js",
@@ -275,7 +275,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Wipro",
     date: "Aug 2023 - Apr 2024",
-    desc: "Developed and maintained an AI-driven healthcare platform using Node.js, Java with Spring Boot, and React.js, serving a large user base. I implemented a HIPAA-compliant system for patient data handling with robust encryption and security, managing a substantial MongoDB database with improved performance through Redis caching. I created RESTful APIs with Spring Web MVC, deployed the application with Docker and Kubernetes for efficient orchestration, and leveraged AWS services for deployment and data management, ensuring high uptime and efficient operations. I also utilized the Junit framework for unit testing, facilitating reliable code and continuous integration.",
+    desc: "Spearheaded the development of a SaaS healthcare platform, ensuring compliance with HIPAA regulations and maintaining a secure patient data handling system. I optimized system performance by strategically utilizing caching techniques and orchestrated a containerized solution for scalable microservices orchestration. Additionally, I engineered a Kafka-based messaging architecture, significantly enhancing backend efficiency and user experience.",
     skills: [
       "Node.js",
       "Express.js",
